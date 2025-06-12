@@ -1,0 +1,92 @@
+.viewCourse{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: #EED9F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 14px;
+    
+}
+.viewCourse .container{
+    background-color: #EED9F8;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.viewCourse .container img{
+    width: 100%;
+    height: 150px;
+}
+.viewCourse .container .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.viewCourse .container .price h2{
+    color: #7109A1;
+}
+.viewCourse .container .price .add{
+    display: flex;
+    align-items: center;
+}
+.viewCourse .container .price .add h2{
+    margin: 10px;
+    color: #FF1F1F;
+}
+.viewCourse .container .price .add input{
+    background-color: #7109A1;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.viewCourse .container .content{
+    padding: 20px;
+}
+.viewCourse .container .content h2{
+    color: #7109A1;
+}
+.viewCourse .container .content p{
+    font-weight: 500;
+}
+.viewCourse .btn{
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.viewCourse .btn .edit{
+    background-color: #3B89FF;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.viewCourse .btn .remove{
+    background-color: #FF1F1F;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+body{
+    background-color: #EED9F8;
+}
+.login{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    margin: 200px 700px;
+    padding: 30px;
+    box-shadow: -7px 7px  15px gray,
+    7px 7px 15px rgb(148, 147, 147);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+.login .heading{
+    text-align: center;
+    color: #7109A1;
+    font-size: 50px;
+    
+}
+.login th{
+    text-align: left;
+    font-size: 25px;
+}
+.login td input{
+    width: 370px;
+    height: 35px;
+    margin-bottom: 10px;
+    
+}
+.login td .button{
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: #7109A1;
+    border: none;
+}
+
+.login .forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.login .forgot a{
+    margin-top: 10px;
+    color: #7109A1; 
+    text-decoration: none;
+}
+.login .haveAnAccount{
+    text-align: center;
+    
+}
+.login .haveAnAccount a{
+    color: #7109A1;
+}

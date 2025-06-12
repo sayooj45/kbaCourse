@@ -1,0 +1,52 @@
+.contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: #EED9F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 14px;
+    
+}
+.contact .head{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+
+}
+.contact .head h1{
+    font-size: 40px;
+}
+.contact .head .contactUs{
+    color: #7109A1;
+    font-size: 20px;
+}
+.contact .head .desc{
+    color: gray;
+    font-size: 20px;
+}
+.contact .contactDetails{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+    
+}
+.contact .contactDetails img{
+    height: 50px;
+}

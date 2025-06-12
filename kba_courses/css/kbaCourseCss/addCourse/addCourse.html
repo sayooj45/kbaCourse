@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addCourse.css">
+</head>
+<body>
+    <div class="addCourse">
+        <nav>
+        <img src="https://miro.medium.com/v2/resize:fit:2400/1*MZmV49985aG-rufIgdSTHw.png" alt=" ">
+        <ul>
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../allCourse/allcourse.html">Course</a></li>
+            <li><a href="../contact/contact.html">Contact Us</a></li>
+            <li><a href="#">Add Course</a></li>
+            <li><a href="../login/login.html">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Add Course</h2>
+        <form action="">
+            <table>
+            <tr>
+                <th>Course Name</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="eg.Certified Blockchain Associate" required>
+                </td>
+            </tr>
+             <tr>
+                <th>Course Id</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="eg.1" required>
+                </td>
+            </tr>
+              <tr>
+                <th>Course Type</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="courseType" id="">
+                        <option value="self_paced" selected>Self Paced</option>
+                        <option value="paid">Paid</option>
+                        <option value="abc">Abc</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="" id="" placeholder="Small description of the course"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="price" id="">
+                        <option value="5000">Rs.5000</option>
+                        <option value="6000">Rs.6000</option>
+                        <option value="7000">Rs.7000</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <div class="btn">
+            <input  type="submit" value="Add Course">
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
