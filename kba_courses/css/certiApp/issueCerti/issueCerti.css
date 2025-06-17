@@ -1,0 +1,80 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul h2{
+    font-size: 36px;
+}
+nav ul .btn{
+    display: flex;
+    align-items: center;
+}
+nav ul .btn li{
+    margin-right: 22px;
+}
+
+nav ul .btn li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul .btn li .certibtn{
+    background-color: #3D7FF9;
+    color: white;
+    width: 183px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.certiForm {
+    background-color: #F9F9F9;
+    border: 1px solid #B9B9B9;
+    width: 1222px;
+    height: 740px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+.certiForm h2{
+    font-size: 32px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+.certiForm table tr{
+    text-align: left;
+}
+.certiForm table tr th{
+    font-size: 20px;
+}
+
+.certiForm table tr td input{
+    width: 596px;
+    height: 50px;
+    font-size: 20px;
+}
+.certiForm table tr td select{
+    width: 596px;
+    height: 50px;
+    font-size: 20px;
+}
+.certiForm .subbtn{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #4BD7F6;
+    width: 184px;
+    height: 47px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}

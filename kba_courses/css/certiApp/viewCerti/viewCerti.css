@@ -1,0 +1,26 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+.viewcerti{
+    width: 1267px;
+    height: 681px;
+    border: 1px solid #B9B9B9;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.viewcerti h2{
+    font-size: 24px;
+}
+.viewcerti img{
+    height: 400px;
+}
+.viewcerti p{
+    font-size: 24;
+    margin-bottom: 30px;
+}
